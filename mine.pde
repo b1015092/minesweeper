@@ -238,14 +238,6 @@ void Show_Number() {
   }
 }
 
-/*オート機能*/
-void Auto() {
-  ///*ランダムで空ける*/
-  //int rx = int (random(1, num_x+1));
-  //int ry = int (random(1, num_y+1));
-  //pm_m[rx][ry]=1;
-}
-
 /*クリアとゲームオーバーの判定*/
 void Judge() { 
   if (go==1 && gq==0) {//ゲームオーバーしたとき
