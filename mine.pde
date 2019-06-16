@@ -442,16 +442,6 @@ void Oncursor() {
   }
 }
 
-/*地雷の位置をファイルに書き込む*/
-//void Back_save() {
-//  for (i=1; i<=num_x; i++) {
-//    for (j=1; j<=num_y; j++) {
-//      data.println(pm_m[i][j]+i+j);
-//    }
-//  }
-//  data.close();
-//}
-
 /*同じ地雷配置でやり直す*/
 void Back_writing() {
   for (i=1; i<=num_x; i++) {
